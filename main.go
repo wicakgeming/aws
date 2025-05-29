@@ -22,5 +22,6 @@ func main() {
 
 	r := gin.Default()
 	routes.InitSensorRoutes(r)
+
 	r.Run(":8080")
 }
